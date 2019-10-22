@@ -1,0 +1,121 @@
+.btn span.fa {
+  opacity:0;
+  font-size:24px;
+}
+
+.btn.active span.fa {
+  opacity:1;
+  font-size:24px;
+  color:#17b5be;
+  margin:-0.3vh 0 0;
+}
+
+.btn-checkbox, .btn-checkbox:active, .btn-checkbox:focus, .btn-checkbox:active:focus, .btn-checkbox.active, .btn-checkbox.focus, .btn-checkbox.active.focus {
+  border:0;
+  border-radius:4px;
+  color:#fff;
+  background-color:#fff;
+  text-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  background-image:none;
+  padding:0;
+  margin:0 8px 10px 0;
+  width:20px;
+  height:20px;
+  outline:none;
+}
+
+.checkbox.login {
+  color:#fff;
+  margin:0;
+  font-size:1.1rem;
+}
+
+.class-list:hover {
+  background-color:#f0f0f0;
+}
+
+.cla-cod-sec {
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-end;
+}
+
+.cla-cod {
+  font-size:1.55rem;
+  color:#333;
+  margin:0.5vh 0;
+}
+
+.cla-sec {
+  font-size:1.25rem;
+  color:#b7b7b7;
+  font-weight:normal;
+  margin:0;
+  display:none;
+}
+
+.cla-nam {
+  font-size:1.25rem;
+  color:#909090;
+  font-weight:normal;
+  margin:0;
+}
+
+.attach-list {
+  display:flex;
+  justify-content:space-between;
+  padding:1vh 15px;
+  margin:0 -15px;
+}
+
+.attach-file {
+  display:flex;
+  align-items:center;
+}
+
+.attach-icon {
+  height:28px;
+  padding:0 15px 0 0;
+}
+
+.disc-date {
+  font-size:1.35rem;
+  font-weight:500;
+  color:#333;
+  margin:0 0 0 15px;
+  white-space:nowrap;
+}
+
+.disc-sub {
+  margin:0;
+  font-size:1.35rem;
+  color:#909090;
+}
+
+.self-ass {
+  color:#676767;
+  text-align:left;
+}
+
+.btn-group-vertical > .btn:first-child:not(:last-child) {
+}
+
+.btn-group-vertical > .btn:first-child:not(:last-child) {
+  -webkit-transition:all .1s ease-in-out;
+  -moz-transition:all .1s ease-in-out;
+  -ms-transition:all .1s ease-in-out;
+  -o-transition:all .1s ease-in-out;
+  transition:all .1s ease-in-out;
+}
+
+.scor-mmm {
+  font-size:1.35rem;
+  color:#b7b7b7;
+  font-weight:500;
+  color:#333;
+  margin:0;
+  white-space:nowrap;
+}
+
